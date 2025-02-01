@@ -53,7 +53,7 @@ return {
                 vim.keymap.set('n', 'go', '<cmd>FzfLua lsp_typedefs jump_to_single_result=true ignore_current_line=true<cr>', opts)
 
                 opts.desc = "LSP: [g]o to [r]eferences"
-                vim.keymap.set('n', 'gr', '<cmd>FzfLua lsp_references jump_to_single_result=true ignore_current_line=true<cr>', opts)
+                vim.keymap.set('n', 'gr', '<cmd>FzfLua lsp_references<cr>', opts)
 
                 opts.desc = "LSP: [g]o to [s]ignature"
                 vim.keymap.set('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<cr>', opts)
