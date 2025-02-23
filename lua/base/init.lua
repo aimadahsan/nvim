@@ -4,6 +4,7 @@ local M = {}
 function M.setup(opts)
   print("Hello world!")
   require("base.config.options")
+  require("base.config.mappings")
 end
 
 return M
