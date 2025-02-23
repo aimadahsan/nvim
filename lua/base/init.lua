@@ -3,7 +3,7 @@ local M = {}
 ---@param opts? LazyVimConfig
 function M.setup(opts)
   print("Hello world!")
-  require("config")
+  require("base.config.options")
 end
 
 return M
