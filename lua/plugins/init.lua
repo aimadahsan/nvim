@@ -1,3 +1,4 @@
 return {
-    "aimadahsan/nvim"
+    "aimadahsan/nvim",
+    opts = {}
 }
