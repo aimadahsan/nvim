@@ -1,4 +1,1 @@
-return {
-    "aimadahsan/nvim",
-    opts = {}
-}
+return { "aimadahsan/nvim", priority = 10000, lazy = false, opts = {}, cond = true, version = "*" },
